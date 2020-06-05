@@ -13,7 +13,7 @@ app.geometry("900x600+150+60")
 
 def choose_file():
 	global items 
-	file_name = askopenfilename(initialdir="f:\\", filetypes=[("文本文件", "*.txt")])
+	file_name = askopenfilename(initialdir="f:\\")
 	items.append(file_name)
 	print("已选择文件>>> " + str(items))
 	show_items(items)
