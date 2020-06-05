@@ -30,8 +30,8 @@ def chage_file(file):
 
 
 def main():
-	# path = input("input need read path : ")
-	path = r"F:\scala\21高阶函数.txt"
+	path = input("input need read path : ")
+	# path = r"F:\scala\21高阶函数.txt"
 	read_table(path)
 	print(table)
 	for file in table:
